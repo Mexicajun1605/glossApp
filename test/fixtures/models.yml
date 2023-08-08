@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  glossary: MyString
+  concepto: MyString
+  traducción: MyString
+  definición: MyString
+  enlaces_de_referencia: MyString
+
+two:
+  glossary: MyString
+  concepto: MyString
+  traducción: MyString
+  definición: MyString
+  enlaces_de_referencia: MyString

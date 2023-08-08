@@ -1,0 +1,10 @@
+<h1>Editing gloss</h1>
+
+<%= render "form", gloss: @gloss %>
+
+<br>
+
+<div>
+  <%= button_to "Show this gloss", @gloss, class: "btn btn-outline-success" %><br>
+  <%= link_to "Back to glosses", glosses_path, class: "btn btn-outline-success" %>
+</div>

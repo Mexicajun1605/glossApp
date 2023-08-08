@@ -1,0 +1,19 @@
+Glossary App Rails
+
+1. Set Homepage !
+
+2. Clean up the homepage a bit, bootstrapify it !
+
+3. Add a form and database page !
+
+4. add a search bar !
+
+5. Add the data !
+
+6. Connect the search bar and the data !
+
+7. Create a login system using Devise !
+
+8. Polish things up
+
+9. Test and deploy

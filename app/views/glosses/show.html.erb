@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @gloss %>
+
+<div>
+  <%= link_to "Edit this gloss", edit_gloss_path(@gloss), class: "btn btn-secondary" %> |
+  <%= link_to "Back to glosses", glosses_path, class: "btn btn-secondary" %>
+  <br>
+  <br>
+  <%= button_to "Destroy this gloss", @gloss, method: :delete, class: "btn btn-danger" %>
+</div>

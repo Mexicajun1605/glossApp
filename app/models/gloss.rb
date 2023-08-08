@@ -1,0 +1,4 @@
+class Gloss < ApplicationRecord
+
+      
+end

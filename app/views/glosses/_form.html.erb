@@ -1,0 +1,33 @@
+<%= form_with(model: gloss) do |form| %>
+  <% if gloss.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(gloss.errors.count, "error") %> prohibited this gloss from being saved:</h2>
+
+      <ul>
+        <% gloss.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class = "form-group">
+    <%= form.text_field :concepto, placeholder:"concepto", class:"form-control" %>
+  </div>
+
+  <div class = "form-group">
+    <%= form.text_field :traducción, placeholder:"traducción", class:"form-control"%>
+  </div>
+
+  <div class = "form-group">
+    <%= form.text_field :definición, placeholder:"definición", class:"form-control" %>
+  </div>
+
+  <div class = "form-group">
+    <%= form.text_field :enlaces_de_referencia, placeholder:"enlaces de referencia", class:"form-control" %>
+  </div>
+
+  <div class = "form-group">
+    <%= form.submit class:"btn btn-success" %>
+  </div>
+<% end %>
